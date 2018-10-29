@@ -1,8 +1,8 @@
 # Wartegg_test
 For wartegg test
 
-1# start with survey the research status of  Wartegg test.\__
-Reading Material gathered:__
+1# start with survey the research status of  Wartegg test.  
+Reading Material gathered:  
 Drawing as a means to design reasoning
 https://depts.washington.edu/dmgftp/publications/pdfs/aid96-mdg.pdf
 Graphics Recognition
