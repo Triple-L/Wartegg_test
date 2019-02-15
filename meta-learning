@@ -1,0 +1,20 @@
+Model-Agnostic Meta-LearningThis repo contains code accompaning the paper, Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks (Finn et al., ICML 2017). It includes code for running the few-shot supervised learning domain experiments, including sinusoid regression, Omniglot classification, and MiniImagenet classification.
+For the experiments in the RL domain, see this codebase.
+
+
+Questions and Answers find:
+A.sinusoid regression.
+B.Omniglot classification. 
+C.MiniImagenet classification.
+D.Few-shot classification [1] 
+少量学习分类（few-shot classification）中，我们希望能够学习这样一种算法，它仅用少数几个标记样本就可以对分类器进行训练.
+一个学习算法的参数化模型被定义，并在表示不同分类问题的事件中对其加以训练，其中每个分类问题都有一个小标记训练集和相应的测试集。
+E. Meta-learning
+few-shot分类中所取得的进展涵盖了元学习（meta-learning）
+Meta-laerning  Thrun等人于1998年、Hochreiter等人于2001年提出. 该学习在大量可用的标记数据所生成的各种分类问题中执行迁移学习，迁移到训练期间不可见类中的新型分类问题。元学习可以采用学习共享度量的方式，这是few-shot分类器或通用推理网络的常用初始化。
+最前沿：Meta Learning前沿进展扫描[2]
+
+
+Reference
+[1] Paper note: http://www.sohu.com/a/224980467_390227. Paper: https://arxiv.org/pdf/1803.00676.pdf
+[2]https://zhuanlan.zhihu.com/p/40600485
